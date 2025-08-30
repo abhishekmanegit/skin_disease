@@ -38,7 +38,7 @@ export const sendMessageToChatbot = async (message: string): Promise<ChatRespons
     
     if (!apiKey || apiKey.length < 10) {
       return {
-        message: "How Can I Help You Today..!"
+        message: "How can I help you Today..!"
       };
     }
 
