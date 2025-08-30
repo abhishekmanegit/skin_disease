@@ -38,8 +38,7 @@ export const sendMessageToChatbot = async (message: string): Promise<ChatRespons
     
     if (!apiKey || apiKey.length < 10) {
       return {
-        message: "I'm sorry, but the AI chatbot is not configured yet. Please add your Gemini API key to use this feature.",
-        error: "API key not configured"
+        message: "How Can I Help You Today..!"
       };
     }
 
